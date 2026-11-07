@@ -4,9 +4,20 @@
 
 [Télécharger la dernière version](https://github.com/nxdorteam-max/DoModzRGB/releases/latest) · [Signaler un problème](https://github.com/nxdorteam-max/DoModzRGB/issues)
 
+## Nouveautés 3.2
+
+- Contours de navigation propres, sans rectangles noirs autour des boutons arrondis.
+- RAM avec le même contrôleur et la même disposition de LED regroupées dans une seule cible synchronisée.
+- Ventilation organisée : profil global, tableau des vitesses puis réglage individuel repliable.
+- Configuration du ventirad et des sorties ARGB accessible directement dans Éclairage.
+- Noms et tailles des sorties ARGB mémorisés et restaurés après redémarrage.
+- Accès explicite à l’outil GIGABYTE pour les GPU dont le RGB reste non pris en charge.
+
+Un ventirad ARGB branché sur la carte mère se configure par sa prise : son nom n’est pas transmis automatiquement. Un boîtier avec télécommande seule, sans liaison USB/ARGB au PC, ne peut pas être piloté par le logiciel.
+
 ## Installation
 
-1. Télécharger `DoModz-RGB-Setup-3.1.0.exe` depuis les versions publiées.
+1. Télécharger `DoModz-RGB-Setup-3.2.0.exe` depuis les versions publiées.
 2. Lancer l’installateur et accepter la demande administrateur Windows.
 3. Ouvrir DoModz RGB depuis le menu Démarrer ou son icône près de l’horloge.
 
@@ -62,4 +73,4 @@ Les paramètres et l’inventaire restent sur le PC, dans `%LOCALAPPDATA%\DoModz
 
 Ce dépôt distribue les installateurs, la documentation et les fichiers de vérification. **Le code original de DoModz RGB est conservé dans un dépôt privé.** La compilation ne rend pas un exécutable impossible à analyser.
 
-OpenRGB, Qt, LibreHardwareMonitor et les autres dépendances conservent leurs licences. Les sources tierces requises sont proposées dans l’archive `ThirdParty-Sources-3.1.0.zip`, à côté de l’installateur. Cette archive ne contient pas le code original de DoModz RGB. Consulter [les notices](THIRD-PARTY-NOTICES.md).
+OpenRGB, Qt, LibreHardwareMonitor et les autres dépendances conservent leurs licences. Les sources tierces requises sont proposées dans l’archive `ThirdParty-Sources-3.2.0.zip`, à côté de l’installateur. Cette archive ne contient pas le code original de DoModz RGB. Consulter [les notices](THIRD-PARTY-NOTICES.md).
