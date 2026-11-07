@@ -1,0 +1,18 @@
+DoModz RGB — logiciel original
+Copyright 2026 nxdorteam-max. Tous droits réservés.
+
+L’utilisation des fichiers compilés de DoModz RGB est autorisée gratuitement.
+Le code source original de DoModz RGB n’est pas fourni dans l’installateur.
+Aucune garantie de compatibilité universelle, de fonctionnement sans erreur,
+de silence absolu ou de récupération après une défaillance matérielle n’est donnée.
+
+Les composants tiers conservent intégralement leurs propres licences.
+Cette licence ne restreint pas les droits accordés par leurs licences,
+notamment leur modification, remplacement et l’analyse nécessaire à leur débogage.
+Les bibliothèques Qt et LibreHardwareMonitor restent séparées et remplaçables.
+OpenRGB fonctionne comme un programme distinct, avec son propre protocole réseau local.
+
+Les licences sont installées dans le dossier licenses. Les sources des composants
+qui l’exigent sont disponibles dans les publications publiques de DoModz RGB,
+séparément du code original privé de DoModz RGB :
+https://github.com/nxdorteam-max/DoModzRGB/releases
